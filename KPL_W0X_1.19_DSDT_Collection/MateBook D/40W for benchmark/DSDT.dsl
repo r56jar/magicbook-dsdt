@@ -5726,6 +5726,30 @@ DefinitionBlock ("DSDT.aml", "DSDT", 1, "HUAWEI", "Tambouri", 0x00040001)
                         Store (0x26, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
                         Store (0x01, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
                         ALIL (UTDP)
+                        Store (0x48, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
+                        Store (0x2F5, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
+                        ALIL (UTDP)
+                        Store (0x49, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
+                        Store (0x2F5, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
+                        ALIL (UTDP)
+						Store (0x4A, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
+                        Store (0x4B0, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
+                        ALIL (UTDP)
+						Store (0x4B, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
+                        Store (0x4B0, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
+                        ALIL (UTDP)
+						Store (0x4C, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
+                        Store (0x3C00320, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
+                        ALIL (UTDP)
+						Store (0x4D, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
+                        Store (0x3C00320, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
+                        ALIL (UTDP)
+						Store (0x4E, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
+                        Store (0x1B4, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
+                        ALIL (UTDP)
+						Store (0x4F, M255) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M255 */
+                        Store (0x1B4, M256) /* \_SB_.PCI0.LPC0.EC0_.CTDP.M256 */
+                        ALIL (UTDP)
                     }
                 }
 
